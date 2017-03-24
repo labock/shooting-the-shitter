@@ -1,0 +1,1 @@
+print 'fancy css style'
