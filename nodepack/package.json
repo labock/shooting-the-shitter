@@ -1,0 +1,16 @@
+{
+  "name": "nodepack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/www",
+  "private": true,
+  "scripts": {
+    "start": "./bin/www",
+    "test": "mocha ./test/**/*.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
