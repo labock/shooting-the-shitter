@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+var stream = process.stdout;
+var app = require('./../index');
+//var util = require('./../lib/utilities');
+
+function init() {
+	console.log("\n-----\n" + app.message.join("\n") + "\n-----");
+	//"\n-----" + message.join("\n") + "\n-----"
+}
+
+init();
